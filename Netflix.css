@@ -1,0 +1,232 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: black;
+    color:white
+ }
+ .signing{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)), url(IMAGE/netflixbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    border-bottom: 8px solid rgb(80, 79, 79);
+    
+ }
+ .line{
+ background-color: aqua;
+ 
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+ }
+ .logo{
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 3px;
+    cursor:pointer;
+ }
+ nav button {
+    border:0px ;
+    outline: 0px; 
+    background-color: #cc0202;
+    color: white;
+    padding: 7px 20px;
+    font-size: ;
+    border-radius: 4px;
+    margin-right: 60px;
+    cursor: pointer;
+ }
+ .langbutton{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 4px 20px;
+    margin-right: 20px;
+ }
+ .langbutton img{
+   width: 10px; 
+   margin-left: 10px;
+ }
+ .signin{
+    padding: 5px 20px;
+ }
+ /* .input{
+    font-size: 15px;
+
+ } */
+ .center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 150px;
+   overflow: visible;
+   
+ }
+ .div1{
+    font-size: 25px;
+   max-width:  1000px;
+ }
+ .div2{
+  font-size: 20px;
+   padding: 5px;
+ }
+ .div3{
+    font-size: 20px;
+    padding: 5px;
+ }
+ .email{
+    display: flex;
+    padding: 20px;
+ }
+.email input{
+    display: flex;
+    padding: 10px 100px;
+    background-color: transparent;
+    outline: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    font-size: 15px;
+}
+.email button:hover{
+background-color: rgb(228, 51, 51);
+}
+.email button{
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    border-radius: 5px;
+    margin-left:  20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.features{
+border-top: 20px;
+border
+border-color: #cc0202;
+height: 500px;
+border-bottom: 8px solid rgb(80, 79, 79);
+height: 550px;
+}
+.row{
+    display: flex;
+    align-items:center;
+    
+}
+    
+.text{
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 100px;
+}
+.text h2{
+    font-size: 40px;
+    line-height: 80px;
+
+}
+.text p{
+    font-size: 20px;
+}
+.img img{
+    margin-right: 170px;
+    margin-top: 70px;
+    width: 500px;
+}
+.text2{
+    margin-top: 70px;
+    margin-right: 50px;
+    padding: 100px;
+}
+.text2 p{
+    font-size: 20px;
+    
+}
+.text2 h2{
+    font-size: 30px;
+    
+}
+.img2 img{
+    margin-left: 170px;
+    margin-top: 70px;
+    width: 500px;
+}
+
+/* -------------------------------------------------qustions */
+
+.question{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    border-bottom: 7px solid rgb(80, 79, 79);
+}
+.head{
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+.quest{
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 64, 64);
+    width: 1030px;
+    height: 90px;
+    border-bottom: 10px solid rgb(12, 12, 12);
+    cursor: pointer;
+    justify-content: space-between;
+}
+.quest:hover{
+    background-color: rgb(95, 94, 94);
+}
+.qst1{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.plus{
+    margin-right: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+
+/* ------------last------last-------------last------------------- */
+
+.last{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.call{
+    margin-left: 150px;
+    height: 50px;
+    text-align: ;
+    margin-top: 60px;
+}
+.innerdiv{
+    display: flex;
+    margin-left: 150px;
+}
+.innerdiv a{
+    color: white;
+}
+.HelpCenter{
+    margin-left: 200px;
+}
+.Account{
+    margin-left: 200px;
+}
+.foot{
+    margin-top: 25px;
+    margin-left: 150px;
+}
